@@ -23,7 +23,7 @@ It supports settings via command line parameters and it has interactive control
 
 ### Building
 ```bash
-git clone https://git.deviks.io/seweex/game-of-life.git
+git clone https://github.com/seweex/game-of-life.git
 cd game-of-life
 mkdir build && cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release
