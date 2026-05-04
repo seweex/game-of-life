@@ -1,6 +1,6 @@
 # Conway's Game of Life - A game written using C++ and SDL2
 
-The project implements a ![Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) with using C++, SDL2 and CMake
+The project implements a [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) with using C++, SDL2 and CMake
 It supports settings via command line parameters and it has interactive control
 
 ## 🔥 Features 
@@ -51,14 +51,6 @@ cmake --build . --config Release
 ./game-of-life -fieldwidth=50 -fieldheight=50 -tickrate=10
 ```
 
-## 🏗️ Architecture
+## ⭐ Feedback
 
-game-of-life/
-├── include/
-│   ├── field.h     # Логика клеточного поля
-│   ├── game.h      # Основной игровой цикл
-│   ├── graphics.h  # Отрисовка через SDL2
-│   └── settings.h  # Управление параметрами
-├── src/
-│   └── main.cpp    # Точка входа
-└── CMakeLists.txt  # Система сборки
+I'll be glad if you help me improve the code :D
